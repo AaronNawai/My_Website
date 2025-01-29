@@ -14,7 +14,13 @@ main p {
     margin-right: 15em;
 }
 
-h2.saul{font-variant: small-caps;}
-/*a[href]{ font-weight: 700;}*/
+img.saul{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 6em;
+}
+h2.caps{font-variant: small-caps;}
+
 a[href]:link{ color: #7c5a05; font-weight: 700;}
+
 a[href]:hover{ color: #098137;}
