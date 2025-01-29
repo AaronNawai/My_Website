@@ -1,8 +1,20 @@
-body{
+body {
     color: #8b0000;
+    font-family: Helvetica, sans-serif;
 }
-/*
-img{
-    padding: 2em;
-} */
- 
+
+#slash {
+    float: left;
+    margin-right: 1em;
+}
+
+main p {
+    color: #7c5a05;
+    font-size: larger;
+    margin-right: 15em;
+}
+
+h2.saul{font-variant: small-caps;}
+/*a[href]{ font-weight: 700;}*/
+a[href]:link{ color: #7c5a05; font-weight: 700;}
+a[href]:hover{ color: #098137;}
