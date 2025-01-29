@@ -1,26 +1,39 @@
+/* type selector */
 body {
     color: #8b0000;
     font-family: Helvetica, sans-serif;
 }
 
+/* id selector */
 #slash {
     float: left;
     margin-right: 1em;
 }
 
+/* relational selector */
 main p {
     color: #7c5a05;
     font-size: larger;
     margin-right: 15em;
 }
 
-img.saul{
+/* combination selector */
+img.saul {
     margin-top: 2em;
     margin-bottom: 2em;
     margin-left: 6em;
 }
-h2.caps{font-variant: small-caps;}
 
-a[href]:link{ color: #7c5a05; font-weight: 700;}
+h2.caps {
+    font-variant: small-caps;
+}
 
-a[href]:hover{ color: #098137;}
+/* attribute selector */
+a[href]:link {
+    color: #7c5a05;
+    font-weight: 700;
+}
+
+a[href]:hover {
+    color: #098137;
+}
