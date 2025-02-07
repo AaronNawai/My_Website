@@ -18,6 +18,7 @@ main p {
     margin-left: .25em;
     padding-left: 2%;
     padding-right: 5%;
+    padding-bottom: 1%;
     clear: both;
 
 }
@@ -29,8 +30,13 @@ img.saul {
     border: 8px inset #2c2929;
 }
 
+h1 {
+    padding-left: 1em;
+}
+
 h2.caps {
     font-variant: small-caps;
+    padding-left: 1em;
 }
 
 /* attribute selector */
@@ -61,6 +67,15 @@ a[href]:hover {
 
 }
 
+#link {
+    text-align: right;
+    font-style: italic;
+    float: right;
+    padding-right: 5em;
+    font-size: larger;
+
+}
+
 ul {
     text-align: left;
     list-style-position: outside;
@@ -69,15 +84,6 @@ ul {
     flex-direction: column;
     flex-wrap: wrap;
     float: left;
-}
-
-#link{
-    text-align: right;
-    font-style: italic;
-    float: right;
-    padding-right: 5em;
-    font-size: larger;
-    
 }
 
 footer {
