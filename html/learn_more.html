@@ -1,21 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles.css">
-    <title>Keeping it Simple</title>
+    <title>KISS HTML Guidelines</title>
 </head>
+
 <body>
     <header>
-        <h1>Keep It Simple Silly</h1>
+        <h1>KISS HTML Guidelines (Keep It Simple, Silly!)</h1>
         <h2 class="caps">Writing Clean, Organized, and Minimal Code</h2>
     </header>
-    <main>
+    <aside>
+        <p>1. Always start with:</p>
+        <img src="../images/html_new.png" alt="an image of a backward slash between two angle brackets" width="400" />
+        <p>This keeps your code clean and readable.</p>
+        <p>2. Close Your Tags</p>
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            ✅ Good:
+        <p><code>&lt;p&gt;</code>Hello!<code>&lt;/p&gt;</code></p>
+        ❌ Bad: <p><code>&lt;p&gt;</code>Hello!</p> (Forgets the closing tag)
+        </p>
+        <p>
+            3. Use Semantic Elements:<br><br>
+            Instead of &ltdiv&gt for everything, use:<br>
+            <code>&lt header &gt</code> for the top section <br>
+            <code>&lt nav &gt</code> for menus <br>
+            <code>&lt section &gt</code> for main content <br>
+            <code>&lt footer &gt</code> for bottom info
+        </p>
+    </aside>
+    <main>
+        <p id="main_2">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.
         </p>
     </main>
-    <a href="/index.html">Back to Basics</a>
+
+    <a href="/index.html" id="link">Back to Basics</a>
+
 </body>
+
 </html>

@@ -2,6 +2,7 @@
 body {
     color: #8b0000;
     font-family: Helvetica, sans-serif;
+    width: 500;
 }
 
 /* id selector */
@@ -19,7 +20,6 @@ main p {
     padding-left: 2%;
     padding-right: 5%;
     padding-bottom: 1%;
-    clear: both;
 
 }
 
@@ -49,6 +49,7 @@ a[href]:hover {
     color: #14c959;
 }
 
+/* Boardered lists with links */
 #lists {
     float: left;
     height: 235px;
@@ -68,12 +69,15 @@ a[href]:hover {
 }
 
 #link {
-    text-align: right;
     font-style: italic;
     float: right;
     padding-right: 5em;
     font-size: larger;
+    clear: both;
+}
 
+#first_p {
+    clear: both;
 }
 
 ul {
@@ -84,6 +88,24 @@ ul {
     flex-direction: column;
     flex-wrap: wrap;
     float: left;
+}
+
+#main_2 {
+    margin: 10;
+    width: 450px;
+    height: 5px;
+    float: right;
+    padding-right: 500px;
+    color: #0a0a0a;
+
+}
+
+aside {
+    margin: 0 20px 10px;
+    width: 450px;
+    float: left;
+    color: #0a0a0a;
+    font-size: larger;
 }
 
 footer {
