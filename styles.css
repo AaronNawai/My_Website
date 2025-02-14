@@ -11,7 +11,6 @@ main p {
     padding-left: 2%;
     padding-right: 5%;
     padding-bottom: 1%;
-
 }
 
 
@@ -75,14 +74,6 @@ a[href]:hover {
     clear: both;
 }
 
-aside {
-    margin: 0 20px 10px;
-    width: 450px;
-    float: left;
-    color: #0a0a0a;
-    font-size: larger;
-}
-
 ul.bracket {
     text-align: left;
     list-style-position: outside;
@@ -112,7 +103,7 @@ footer {
     padding: 60px;
 }
 
-/* Navigation Menu */
+/* Navigation Menu Mod 6*/
 #nav_menu_3 ul {
     list-style-type: none;
     padding-left: 33%;
@@ -136,4 +127,32 @@ footer {
 
 #nav_menu_3 ul li a.lastitem {
     border-right: none;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 1005px) {
+    #nav_menu_3 ul li {
+        float: left;
+    }
+    #lists {
+        float: left;
+        height: 50%;
+        width: 50%;
+        text-align: center;
+        font-size: larger;
+        border: 8px inset #2c2929;
+        margin: 1.6em 1em 2em 1em;
+        background: linear-gradient(120deg, #ffffff 0%, #c9b37a 50%, #8d6809);
+    }
+    #nav_menu_3 ul li a {
+        text-align: center;
+        display: block;
+        width: 175px;
+        padding: 1em 0;
+        text-decoration: none;
+        background-color: hsl(30, 59%, 53%);
+        color: white;
+        font-weight: bold;
+        border-bottom: 2px solid black;
+    }
 }

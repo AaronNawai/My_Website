@@ -1,9 +1,17 @@
+aside {
+    margin: 0 20px 10px;
+    width: 450px;
+    float: left;
+    color: #0a0a0a;
+    font-size: larger;
+}
+
 #main_2 {
     margin: 10;
     width: 450px;
     height: 5px;
     float: right;
-    padding-right: 500px;
+    padding-right: 50px;
     color: #0a0a0a;
 
 }
@@ -21,4 +29,30 @@
     padding-right: 5em;
     font-size: larger;
     clear: both;
+}
+/* Media Queries */
+@media only screen and (max-width: 1345px) {
+    #main_2 {
+        margin-left: 10;
+        width: 50%;
+        height: 50%;
+        float: left;
+        color: #0a0a0a;
+        padding-left: 2em;
+    
+    }
+    #link {
+    font-style: italic;
+    float: right;
+    padding-right: 5em;
+    font-size: larger;
+    clear: both;
+    }
+    
+    #holder {
+        float: left;
+    padding-right: 5em;
+    font-size: larger;
+    clear: both;
+    }
 }
