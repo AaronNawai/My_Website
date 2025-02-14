@@ -11,7 +11,7 @@ aside {
     width: 450px;
     height: 5px;
     float: right;
-    padding-right: 50px;
+    padding-right: 500px;
     color: #0a0a0a;
 
 }
@@ -31,7 +31,7 @@ aside {
     clear: both;
 }
 /* Media Queries */
-@media only screen and (max-width: 1345px) {
+@media only screen and (max-width: 1805px) {
     #main_2 {
         margin-left: 10;
         width: 50%;
