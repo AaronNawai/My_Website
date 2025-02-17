@@ -24,12 +24,17 @@ aside {
     clear: both;
 }
 
+img.html {
+    width: 75%;
+}
+
 #holder {
     float: left;
     padding-right: 5em;
     font-size: larger;
     clear: both;
 }
+
 /* Media Queries */
 @media only screen and (max-width: 1805px) {
     #main_2 {
@@ -39,20 +44,21 @@ aside {
         float: left;
         color: #0a0a0a;
         padding-left: 2em;
-    
+
     }
+
     #link {
-    font-style: italic;
-    float: right;
-    padding-right: 5em;
-    font-size: larger;
-    clear: both;
+        font-style: italic;
+        float: right;
+        padding-right: 5em;
+        font-size: larger;
+        clear: both;
     }
-    
+
     #holder {
         float: left;
-    padding-right: 5em;
-    font-size: larger;
-    clear: both;
+        padding-right: 5em;
+        font-size: larger;
+        clear: both;
     }
 }

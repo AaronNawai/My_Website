@@ -62,10 +62,6 @@ ul.bracket {
     float: left;
 }
 
-img.html {
-    width: 75%;
-}
-
 footer {
     clear: both;
 }
@@ -101,6 +97,7 @@ a[href]:link {
 a[href]:hover {
     color: #14c959;
 }
+
 /* Navigation Menu Mod 6*/
 #nav_menu_3 ul {
     list-style-type: none;
