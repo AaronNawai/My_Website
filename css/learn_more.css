@@ -1,19 +1,20 @@
 aside {
     margin: 0 20px 10px;
-    width: 450px;
+    width: 40%;
     float: left;
     color: #0a0a0a;
     font-size: larger;
+    background-color: rgb(176, 240, 218);
 }
 
 #main_2 {
-    margin: 10;
-    width: 450px;
-    height: 5px;
-    float: right;
-    padding-right: 500px;
+    margin: 0 20px 10px;
+    width: 45%;
+    height: ;
+    float: left;
     color: #0a0a0a;
-
+    font-size: larger;
+    background-color: rgb(206, 227, 245);
 }
 
 #link_p2 {
@@ -25,7 +26,8 @@ aside {
 }
 
 img.html {
-    width: 75%;
+    width: 65%;
+    float: none;
 }
 
 #holder {
@@ -35,6 +37,18 @@ img.html {
     clear: both;
 }
 
+.lists_p2 {
+    text-align: left;
+    list-style-type: none;
+    font-size: large;
+}
+
+.leftcolumn{
+    padding: 1.5%;
+}
+.midcolumn {
+    padding: 1.5% 4% 1.5%;
+}
 /* Media Queries */
 @media only screen and (max-width: 1805px) {
     #main_2 {
