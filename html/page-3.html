@@ -6,23 +6,97 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles.css">
     <link rel="stylesheet" type="text/css" href="../css/learn_more.css">
-    <title>Under Construction</title>
+    <title>KISS CSS Guidelines</title>
 </head>
 
 <body>
     <nav id="nav_menu_3"> <!--Navigation Menu Mod 6-->
         <ul>
             <li><a href="../index.html">Home</a></li>
-            <li><a href="learn_more.html">Learn_More</a></li>
-            <li><a href="page-3.html" class="current">Page 3</a></li>
+            <li><a href="learn_more.html">Basic HTML</a></li>
+            <li><a href="page-3.html" class="current">Basic CSS</a></li>
             <li><a href="page-4.html" class="lastitem">Page 4</a></li>
         </ul>
     </nav>
-    <p class="newpage">
-        Under construction for now
-    </p>
+    <header>
+        <h1>KISS CSS Guidelines (Keep It Simple, Silly!)</h1>
+        <h2 class="caps">Writing Clean, Organized, and Minimal Code</h2>
+    </header>
+    <div id="boxes">
+        <aside id="aside_3" class="leftcolumn">
+            <section>
+                <h3>1. Keep it Organized</h3>
+                <ul>
+                    <li>Use clear naming for classes (e.g., .btn-primary instead of .bp).</li>
+                    <li>Group related styles together.</li>
+                    <li>Use comments to separate sections.</li>
+                </ul>
+            </section>
+            <section>
+                <h3>2. Stick to a Naming Convention</h3>
+                <p>
+                    Use BEM (Block, Element, Modifier) or a simple, readable convention
+                </p>
+                <img src="../images/bem.png" alt="an image of the html unordered list tag" width="400" class="html" />
+            </section>
+            <section>
+                <h3>3. Keep Selectors Short & Simple</h3>
+                <p>✅ Good:</p>
+                <img src="../images/good-slctr.png" alt="an image of the html unordered list tag" width="400"
+                    class="html" />
+                <p>🚫 Bad:</p>
+                <img src="../images/bad-slctr.png" alt="an image of the html unordered list tag" width="400"
+                    class="html" />
 
-    <a href="/index.html" id="link">Back to Basics</a>
+
+            </section>
+            <section>
+                <h3>4. Use Flexbox & Grid</h3>
+                <p>Prefer flexbox and CSS Grid for layouts instead of floats.</p>
+
+            </section>
+            <section>
+                <h3>5. Stick to a Color Palette </h3>
+                <p>Define reusable variables for colors:</p>
+                <img src="../images/css-colors.png" alt="an image of the beginning code of an html doc" width="400"
+                    class="html" />
+            </section>
+        </aside>
+        <main id="main_3">
+            <section class="midcolumn">
+                <h3>6. Avoid !important</h3>
+                <p id="para-3">The !important rule in CSS is used to add more importance to a property/value than normal.
+                    In fact, if you use the !important rule, it will override ALL previous styling rules for that specific property on that element!</p>
+            </section>
+            <section class="midcolumn">
+                <h3>7. Keep It Responsive</h3>
+                <p id="para-3">Use relative units (em, rem, %) instead of fixed pixels.</p>
+                <p id="para-3">Use media queries for different screen sizes:</p>
+                <img src="../images/media.png" alt="an image of the beginning code of an html doc" width="400"
+                    class="html" />
+               
+            </section>
+            <section class="midcolumn">
+                <h3>8. Use CSS for Styling</h3>
+                Keep HTML for structure, CSS for design:
+                <img src="../images/styling.png" alt="an image of the beginning code of an html doc" width="400"
+                    class="html" />
+            </section>
+            <section class="midcolumn">
+                <h3>9. Optimize Performance</h3>
+                <ul>
+                    <li>Minify CSS before deployment.</li>
+                    <li>Use CSS variables instead of repetitive values.</li>
+                    <li>Combine similar rules to reduce redundancy.</li>
+                </ul>
+                <p>Simple, clean, and efficient! 🚀</p>
+            </section>
+        </main>
+    </div>
+    <a href="#top" id="holder">Return to top</a>
+
+    <a href="/index.html" id="link_p2">Back to Home</a>
+
 </body>
 
 </html>

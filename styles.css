@@ -68,11 +68,12 @@ footer {
 
 /* <p> styling for pages 3 and 4 */
 .newpage {
-    color: #0d683a;
+    color: hsl(261, 88%, 55%);
+    font-size: 25px;
+    text-align: left;
+    background-color: rgb(240, 179, 211);
+    padding: 5em;
     clear: both;
-    font-size: 50px;
-    text-align: center;
-    padding: 60px;
 }
 
 /* CSS shared with Index page */
@@ -98,7 +99,13 @@ a[href]:hover {
     color: #14c959;
 }
 
-/* Navigation Menu Mod 6*/
+/* Navigation Menu*/
+#nav {
+    display:flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+
 #nav_menu_3 ul {
     list-style-type: none;
     padding-left: 33%;
@@ -151,5 +158,11 @@ a[href]:hover {
         color: white;
         font-weight: bold;
         border-bottom: 2px solid black;
+    }
+
+    #nav {
+        display:flex;
+        flex-direction: row;
+        justify-content: stretch;
     }
 }
