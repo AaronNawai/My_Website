@@ -73,8 +73,47 @@ img.html {
     margin-right: 1em;
     margin-left: 1em;
 }
+
+/* <p> styling for page 4 */
+main#newpage {
+    color: hsl(#000000);
+    font-size: 25px;
+    text-align: left; 
+    width: 100vw;
+    height: 100vh;
+    background-color: #000000;
+    clear: both;
+}
+
+#page4 {
+    display: grid;
+    height: 400px;
+    width: 100%;
+    grid-template: repeat(5, 10fr) / repeat(1, 5fr);
+    grid-gap: 5px;
+}
+
+#link_4 {
+    font-style: italic;
+    float: right;
+    font-size: larger;
+    margin-right: 2em;
+    margin-top: 65em;
+}
+
+.red {
+    background-color: #ff0000;
+}
+
+.green {
+    background-color: #008000;
+}
+
+.yellow {
+    background-color: #ffff00;
+}
 /* Media Queries */
-@media only screen and (max-width: 1805px) {
+@media only screen and (max-width: 1091px) {
     #link {
         font-style: italic;
         float: right;
@@ -85,9 +124,8 @@ img.html {
 
     #holder {
         float: left;
-        padding-right: 5em;
         font-size: larger;
-        clear: both;
+        margin-left: 1em;
     }
 
     div#boxes {
@@ -109,6 +147,33 @@ img.html {
     text-align: left;
     margin: 1% 1% 1% 1%;
    }
+
+   #link_p2 {
+    font-style: italic;
+    float: none;
+    font-size: larger;
+
 }
+
+.red {
+    background-color: #ff0000;
+    text-align: left;
+    margin: 1% 1% 1% 1%;
+}
+
+.green {
+    background-color: #008000;
+    text-align: left;
+    margin: 1% 1% 1% 1%;
+}
+
+.yellow {
+    background-color: #ffff00;
+    text-align: left;
+    margin: 1% 1% 1% 1%;
+}
+}
+
+
 
 
