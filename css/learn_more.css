@@ -5,6 +5,7 @@ aside {
     flex-basis: 40%;
     margin-right: 1em;
     margin-left: 1em;
+    border: 8px solid rgb(238, 226, 66);
 }
 
 #main_2 {
@@ -13,6 +14,7 @@ aside {
     background-color: rgb(238, 226, 66);
     flex-basis: 45%;
     margin-left: 1em;
+    border: 8px solid rgb(236, 56, 56);
 }
 
 div#boxes {
@@ -63,6 +65,7 @@ img.html {
     background-color: rgb(248, 179, 88);
     flex-basis: 45%;
     margin-left: 1em;
+    border: 8px solid rgb(240, 245, 166);
 }
 
 #aside_3 {
@@ -72,6 +75,7 @@ img.html {
     flex-basis: 40%;
     margin-right: 1em;
     margin-left: 1em;
+    border: 8px solid rgb(248, 179, 88);
 }
 
 /* <p> styling for page 4 */
@@ -102,22 +106,31 @@ main#newpage {
 .red {
     background-color: #ff0000;
     grid-area: red;
-    align-self: stretch;
     height: 25%;
+    width: 75%;
+    padding: 2px;
+    padding-left: 3em;
+    margin-top: 2em;
 }
 
 .green {
     background-color: #008000;
     grid-area: grn;
-    align-self: stretch;
     height: 25%;
+    width: 75%;
+    padding: 2px;
+    padding-left: 3em;
+    margin-top: 2em;
 }
 
 .yellow {
     background-color: #ffff00;
     grid-area: yel;
-    align-self: stretch;
     height: 25%;
+    width: 75%;
+    padding: 2px;
+    padding-left: 3em;
+    margin-top: 2em;
 }
 
 div#container {
