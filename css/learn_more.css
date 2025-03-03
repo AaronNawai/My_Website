@@ -84,15 +84,7 @@ main#newpage {
     font-size: 25px;
     text-align: left; 
     clear: both;
-    height: 100vh;
-    display: grid;
-    grid-template-columns: repeat(1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-template-areas: 
-    "red red red"
-    "yel yel yel"
-    "grn grn grn"
-    "red red red"; 
+   
 }
 
 #link_4 {
@@ -106,40 +98,59 @@ main#newpage {
 .red {
     background-color: #ff0000;
     grid-area: red;
-    height: 25%;
+    height: 100%;
     width: 75%;
     padding: 2px;
-    padding-left: 3em;
+    padding-left: 1em;
     margin-top: 2em;
+    margin-left: 5em;
 }
 
 .green {
     background-color: #008000;
     grid-area: grn;
-    height: 25%;
+    height: 100%;
     width: 75%;
     padding: 2px;
-    padding-left: 3em;
+    padding-left: 1em;
     margin-top: 2em;
+    margin-left: 5em;
 }
 
 .yellow {
     background-color: #ffff00;
     grid-area: yel;
-    height: 25%;
+    height: 100%;
     width: 75%;
     padding: 2px;
-    padding-left: 3em;
+    padding-left: 1em;
     margin-top: 2em;
 }
 
-div#container {
-    width: 80%;
-    padding-left: 15em;
+.black {
+    background-color: #000000;
+    color: aliceblue;
+    grid-area: blk;
+    height: 100%;
+    width: 75%;
+    padding: 2px;
+    padding-left: 1em;
+    margin-top: 2em;
+    
+}
+div.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 16px;
+    grid-template-areas: 
+    "red yel"
+    "grn blk"; 
 }
 
 h3.design {
-    margin-top: 2em;
+    margin-top: 1em;
 }
 
 /* Media Queries */
@@ -188,8 +199,7 @@ h3.design {
 .red {
     background-color: #ff0000;
     text-align: left;
-    margin: 0em;
-    padding: 0em;
+    margin: 1% 1% 1% 1%;
 }
 
 .green {
@@ -203,6 +213,26 @@ h3.design {
     text-align: left;
     margin: 1% 1% 1% 1%;
 }
+
+.black {
+    background-color: #000000;
+    text-align: left;
+    margin: 1% 1% 1% 1%;
+}
+
+div.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 16px;
+    grid-template-areas: 
+    "red"
+    "yel"
+    "grn"
+    "blk"; 
+}
+
 }
 
 
