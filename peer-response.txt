@@ -1,0 +1,34 @@
+Dominique Johnson Henry
+
+Hello, your website effectively highlights the importance of proper HTML syntax and provides valuable learning materials through well-curated resource links. The content is clear, making it easy for users to grasp essential HTML concepts.
+
+Aspects I Appreciate:
+
+Clear Theme & Focus – The site effectively communicates its purpose, emphasizing proper HTML syntax in an educational manner.
+Resourceful Links – The external learning materials add value, providing users with helpful references to expand their knowledge.
+ 
+
+Areas for Improvement:
+
+1. Improve Mobile Responsiveness – When the screen size is reduced, the navigation bar buttons become misaligned and appear cluttered. Implementing CSS flexbox or grid, along with added padding or margins, will help improve spacing and organization.
+
+2. Enhance Navigation Consistency – When navigating between tabs, it was difficult to determine which page I was on, especially on the Web Design Principles page. I recommend adding a heading at the top to clearly indicate the current page.
+
+3. Refine Visual Accessibility – While the content is well-structured, more whitespace, consistent typography, and an accessible color scheme would improve readability.
+
+
+
+Samuel Brazeal
+
+Hi Aaron, I liked the aesthetic of the first page and how the information was presented to the viewer across the entire website. I feel like someone that found this website would be able to get a great head start on creating their own website.
+
+1: I would suggest adding a background color for the entire website or add more gradients like you did for the first page's list of related webpages.
+
+
+2: On the last page there is a large gap from the information and the links I would recommend either putting a picture there or removing the gap if possible.
+
+
+
+3: This recommendation is not really important but if possible I would make a drop down system for your page links although it isn't really needed.
+
+ 
