@@ -102,7 +102,7 @@ main#newpage {
     width: 75%;
     padding: 2px;
     padding-left: 1em;
-    margin-top: 8em;
+    margin-top: 6em;
     margin-left: 7em;
 }
 
@@ -124,7 +124,7 @@ main#newpage {
     width: 75%;
     padding: 2px;
     padding-left: 1em;
-    margin-top: 8em;
+    margin-top: 6em;
 }
 
 .black {
@@ -155,6 +155,11 @@ h3.design {
 
 .grade {
     background: linear-gradient(90deg, #ffffff 0%, #c9b37a 50%, #bba05a);
+}
+
+h1#web {
+    text-align: center;
+    color: #000000;
 }
 /* Media Queries */
 @media only screen and (max-width: 1091px) {
