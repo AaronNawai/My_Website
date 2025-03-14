@@ -54,7 +54,7 @@ img.html {
 }
 
 .midcolumn {
-    padding: 1.5% 4% 1.5%;
+    padding: 1.5% 4%;
     display: flexbox;
 }
 
@@ -79,6 +79,9 @@ img.html {
     border: 8px solid rgb(248, 179, 88);
 }
 
+p.para-3 {
+    margin-right: 0%;
+}
 /* <p> styling for page 4 */
 main#newpage {
     color: hsl(#000000);
@@ -155,9 +158,6 @@ h3.design {
     margin-top: 1em;
 }
 
-.grade {
-    background: linear-gradient(90deg, #ffffff 0%, #c9b37a 50%, #bba05a);
-}
 
 .fa-solid {
     color: #000000;
@@ -194,7 +194,7 @@ h3.design {
         margin-right: 0em;
     }
 
-    p#para-3 {
+    p.para-3 {
         text-align: left;
         margin: 1% 1% 1% 1%;
     }
