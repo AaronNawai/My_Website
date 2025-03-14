@@ -65,6 +65,14 @@ ul.bracket {
 footer {
     clear: both;
 }
+/* Google Fonts */
+.ubuntu-bold {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #2c2929;
+    text-align: center;
+  }
 
 /* CSS shared with Index page */
 h1 {
@@ -89,6 +97,9 @@ a[href]:hover {
     color: #14c959;
 }
 
+.grade {
+    background: linear-gradient(90deg, #ffffff 0%, #c9b37a 50%, #bba05a);
+}
 /* Navigation Menu*/
 #nav {
     display: flex;
