@@ -100,6 +100,8 @@ a[href]:hover {
 
 .grade {
     background: linear-gradient(90deg, #ffffff 0%, #c9b37a 50%, #bba05a);
+    height: 100vh;
+    margin: 0;
 }
 
 /* Navigation Menu*/
@@ -198,12 +200,6 @@ a[href]:hover {
         margin: 1% 1% 1% 1%;
         grid-area: web;
     }
-
-    /* #nav {
-        display: flex;
-        flex-direction: row;
-        justify-content: stretch;
-    } */
 
     #first_p {
         text-align: left;
