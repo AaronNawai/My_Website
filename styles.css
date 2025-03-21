@@ -201,9 +201,28 @@ a[href]:hover {
         grid-area: web;
     }
 
-    #first_p {
-        text-align: left;
+    .first_p {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 50%;
+        grid-template-areas:
+            "par1"
+            "par2";
+    }
+
+    .par1 {
+        text-align: center;
         margin: 1% 1% 1% 1%;
+        grid-area: par1;
+        margin-top: 1em;
+    }
+
+    .par2 {
+        text-align: center;
+        margin: 1% 1% 1% 1%;
+        grid-area: par1;
+        margin-top: 12em;
     }
 
     img.saul {
